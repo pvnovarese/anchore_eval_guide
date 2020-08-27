@@ -11,7 +11,7 @@ This is a repo designed to streamline the trial license process. Please perform 
 4. Please create a secret to pull Anchore Enterprise images from your trusted registry into your kubernetes cluster by running `kubectl create secret docker-registry anchore-enterprise-pullcreds --docker-server=docker.io --docker-username=<USERNAME> --docker-password=<PASSWORD> --docker-email=<EMAIL_ADDRESS>`
 5. At this time, please validate the `anchore-enterprise-pullcreds` and `anchore-enterprise-license`secrets are created by running `kubectl describe secrets`. If you are deploying in a specific namespace other than default namespace, you will need to specify that in the kubectl commands (e.g. `kubectl describe secrets -n anchore`. 
 
-6. Once you have validated the necessary secrets have been created, please review your values.yaml in the /deploy directory and validate that the values reflect the needs of your organization. **If you are using Openshift please uncomment the postgres openshift section of the values.yaml at this time to enable postgres to create successfully on OCP/OKD. It should look like the picture below**
+6. Once you have validated the necessary secrets have been created, please review your values.yaml in the /deploy directory and validate that the values reflect the needs of your organization. **If you are using Openshift please uncomment the postgres openshift section of the values.yaml at this time to enable postgres to create successfully on OCP/OKD.**
 
 7. After finalizing your deployment values.yaml, you are now ready to deploy Anchore Enterprise. validate you are in the /deploy working directory and run 
 `helm repo add anchore https://charts.anchore.io`
