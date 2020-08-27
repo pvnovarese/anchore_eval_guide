@@ -1,4 +1,4 @@
-# Trial License Set Up Instructions
+# Anchore Trial License Experience
 This is a repo designed to streamline the trial license process. Please perform a "git clone" of this repo to begin your trial license experience.
 
 ## Installation 
