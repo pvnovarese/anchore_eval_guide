@@ -22,4 +22,18 @@ This is a repo designed to streamline the trial license process. Please perform 
 
 10. Expose the API and UI pods so that you can reach them. This varies based on the environment, but you can expose the nodeport or use a loadbalancer to expose the necessary services.
 
+## Configure anchore-cli to interact with the API! 
+
+1. Validate you have exposed the api so it is available externally. This can be done by copy and pasting `kubectl describe svc`. You should see an external IP available on port 8228. This will be used for your ANCHORE_CLI_URL.
+
+ **NOTE: If you haven't installed anchore-cli on your workspace, please do so now by following the instructions here: https://github.com/anchore/anchore-cli**
+ 
+2. Now that you have installed anchore-cli, configure it using the following steps. Remember to use your URL, USER, and PASSWORD that are specific to your environment. 
+    `ANCHORE_CLI_URL=http://myserver.example.com:8228/v1
+    `ANCHORE_CLI_USER=admin
+    `ANCHORE_CLI_PASS=foobar
+3. Verify that your cli is configured correctly by performing `anchore-cli system status`. This should return the status of "UP" for all of your services. 
+
+   
+
 
