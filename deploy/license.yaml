@@ -1,0 +1,22 @@
+details:
+  - version: '1.0'
+  - product:
+      - name: Anchore Enterprise
+      - description: Anchore Enterprise Manager
+      - type: trial
+  - license:
+      - user: George Gastelum
+      - organization: Spathe Systems
+      - email: george.gastelum@spathesystems.com
+      - id: 2dd595ee-a24c-4a39-8661-6430b9d16c29
+      - creation: '2020-08-26T17:59:10.050Z'
+      - expiration: '2020-09-25T17:59:10.050Z'
+      - warning: '2020-09-18T17:59:10.050Z'
+      - url: 'https://www.anchore.com'
+  - support:
+      - contact: 'Anchore, Inc.'
+      - number: +1 805-369-1795
+      - email: support@anchore.com
+      - url: 'https://www.anchore.com/support'
+signature: >-
+  21db6d8d9afa67598cbe149ed4d9b03738ff65bd15ddd15046565606a64eae287515747eabb254fa0b0ca78f0ff967659cdeb415ba56ad0c50f3b543282f2ba631d9fb792b923bb2fa1960ab2398d961bdba49c7cd81eae6816f4e7c227c19286980c76e1ad44b54f09c926fb81c30f945f01d1a1ca7db3945bb40fe0d2358b10efd29970ce35f1b55b941de86a6c2d8da44276a88f9c40c07c888cb650f62694bb451903948d2347428a6551c48c47c0fc33edc31ddf3334608efe322d3c8c06b90b1139976495ecc809527a9bd445cbed14a13b3f2f8097def5ce7432c79ee64714c24bfcddd881445d74beceab1394a7fd3ec267403f1633fa93c5014d784497b7f4dbb66f2d66f31d0c0ea9221c4d6fa0e59073c577dc6982de5918e913e489d06e6489c7702586b351310afa97a253fd3ae315a59566969cb584be76d529618641a469ecbb78b72c0cd7f5f777590c228202b94c5318e033c1ef54918af62842b6e971c89f82b74622610052a11580a0574beac5052c88f6e0a0f9cba77603ca332a524e86feadb8c647027c49c4952e0d3bfd231acef498f14d1688dc009a15bec672c7cfe15b2f76521f95fb5445f822e4cbd8b9aa5443a5e239257d5b67cb37809ffad001777ad37c2e1dd9d692cfc5fedf49c03a801c2e58b773f7718a9bf7d3500ba3d2d22fa0060cb34fb18f29f74bf1ef577852f89131e4bc704
