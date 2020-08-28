@@ -14,7 +14,6 @@ This is a repo designed to streamline the trial license process. Please perform 
 6. Once you have validated the necessary secrets have been created, please review your values.yaml in the /deploy directory and validate that the values reflect the needs of your organization. **If you are using Openshift please uncomment the postgres openshift section of the values.yaml at this time to enable postgres to create successfully on OCP/OKD.**
 
 7. After finalizing your deployment values.yaml, you are now ready to deploy Anchore Enterprise. Validate you have Helm 3 installed by using `helm version`. At this time, please move to the `/deploy` directory. 
-`helm repo add anchore https://charts.anchore.io`
 
 8. Now copy and paste `helm repo add anchore https://charts.anchore.io`. Immediately followed by `helm install anchore-enterprise --set anchoreEnterpriseGlobal.enabled=true anchore/anchore-engine -f values.yaml`
 
