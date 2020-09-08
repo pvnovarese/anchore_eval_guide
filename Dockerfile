@@ -1,4 +1,4 @@
-ROM registry.access.redhat.com/ubi8/ubi:latest
+FROM registry.access.redhat.com/ubi8/ubi:latest
 RUN yum update -y && \
     yum install -y nmap git curl gnupg
 
