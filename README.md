@@ -1,7 +1,13 @@
 # Anchore Trial License Experience
 This is a repo designed to streamline the trial license process. Please perform a "git clone" of this repo to begin your trial license experience.
 
-## Installation 
+You can install Anchore Enterprise either via Docker Compose or Kubernetes.
+
+## Docker Compose Installation
+
+1. Please follow the [Enterprise Quickstart](https://docs.anchore.com/current/docs/quickstart/) instructions.
+
+## Kubernetes Installation 
 1. Please cd to the "deploy" directory within this repo. 
 
 2. Please validate that you are connected to your kubernetes cluster at this time 
