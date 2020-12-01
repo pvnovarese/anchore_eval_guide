@@ -1,5 +1,5 @@
-# Anchore Trial License Experience
-This is a repo designed to streamline the trial license process. Please perform a "git clone" of this repo to begin your trial license experience.
+# Anchore Enterprise Evaluation Guide 
+This is a repo designed to streamline the Anchore Enterprise Evaluation process. Please perform a "git clone" of this repo to begin your trial license experience.
 
 You can install Anchore Enterprise either via Docker Compose or Kubernetes.
 
