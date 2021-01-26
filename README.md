@@ -15,6 +15,7 @@ You can install Anchore Enterprise either via Docker Compose or Kubernetes.
 3. Please create a secret for your Anchore Enterprise License by running `kubectl create secret generic anchore-enterprise-license --from-file=license.yaml=/echo-papa/license.yaml`
 
 4. Please create a secret to pull Anchore Enterprise images from your trusted registry into your kubernetes cluster by running `kubectl create secret docker-registry anchore-enterprise-pullcreds --docker-server=docker.io --docker-username=<USERNAME> --docker-password=<PASSWORD> --docker-email=<EMAIL_ADDRESS>`
+
 5. At this time, please validate the `anchore-enterprise-pullcreds` and `anchore-enterprise-license`secrets are created by running `kubectl describe secrets`. If you are deploying in a specific namespace other than default namespace, you will need to specify that in the kubectl commands (e.g. `kubectl describe secrets -n anchore`). 
 
 6. Once you have validated the necessary secrets have been created, please review your values.yaml in the /deploy directory and validate that the values reflect the needs of your organization. **If you are using Openshift please uncomment the postgres openshift section of the values.yaml at this time to enable postgres to create successfully on OCP/OKD.**
